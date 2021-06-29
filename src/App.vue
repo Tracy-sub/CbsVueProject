@@ -6,3 +6,6 @@
   </div>
 </template>
 
+<style >
+  @import url('./assets/static/css/main.css');
+</style>

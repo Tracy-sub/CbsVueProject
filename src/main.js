@@ -3,10 +3,13 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-// import echarts from 'echarts';
+import cbsui from '../src/components/index'
+
+console.log(cbsui);
+Vue.use(cbsui);
 
 Vue.config.productionTip = false;
-// Vue.prototype.$echarts = echarts;
+
 new Vue({
   router,
   store,
