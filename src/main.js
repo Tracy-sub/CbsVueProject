@@ -10,6 +10,15 @@ Vue.use(cbsui);
 
 Vue.config.productionTip = false;
 
+// 注册页面
+
+Vue.use({
+  install:function(Vue){
+    // 练习页面
+    Vue.component('train1',resolve=>require([`./views/train/train1`],resolve))
+  }
+})
+
 new Vue({
   router,
   store,
