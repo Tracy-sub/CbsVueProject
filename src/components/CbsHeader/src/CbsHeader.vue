@@ -1,6 +1,7 @@
 <template>
   <div class="cbs-header" :style="{width:`${width}+px`,height:`${height}+px`,backgroundColor:bgColor}">
-    
+    <div class="header-logo">logo</div>
+    <div class=" user"></div>
   </div>
 </template>
 <script>
@@ -23,5 +24,5 @@ export default {
 }
 </script>
 <style>
-  @import url('../../../assets/static/css/components/cbsHeader.scss');
+  @import url('../assets/css/cbsHeader.scss');
 </style>

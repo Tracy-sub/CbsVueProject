@@ -6,6 +6,8 @@
   </div>
 </template>
 <script>
+
+
 export default {
   name:'train1',
   data(){
@@ -15,15 +17,17 @@ export default {
   },
   created(){
     this.formatData('Jun 24, 2022 3:00:12 PM');
-    console.log(this.$options.filters);
   },
   methods:{
     formatData(value){
       let date = new Date(value);
       let y = date.getFullYear();
       console.log(y);
+    },
+    // 测试接口
+    get(){
+      
     }
-   
   }
 }
 </script>

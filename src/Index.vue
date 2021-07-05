@@ -2,6 +2,7 @@
   <div>
     <cbs-header></cbs-header>
     <!-- <button @click="jumpTrain">跳转train</button> -->
+    <cbs-menu></cbs-menu>
   </div>
 </template>
 <script>

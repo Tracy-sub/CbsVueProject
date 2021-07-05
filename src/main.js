@@ -4,8 +4,6 @@ import router from './router'
 import store from './store'
 
 import cbsui from '../src/components/index'
-
-console.log(cbsui);
 Vue.use(cbsui);
 
 Vue.config.productionTip = false;
@@ -18,7 +16,6 @@ Vue.use({
     Vue.component('train1',resolve=>require([`./views/train/train1`],resolve))
   }
 })
-
 new Vue({
   router,
   store,
