@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Index from '../../src/Index.vue'
-import train1 from '../../src/views/train/train1.vue'
+import TimeFormat from '../../src/views/format/TimeFormat.vue'
  
 Vue.use(VueRouter)
 
@@ -15,9 +15,9 @@ const routes = [
     }
   },
   {
-    path:'/train',
-    name:'train1',
-    component:train1,
+    path:'/timeFormat',
+    name:'TimeFormat',
+    component:TimeFormat,
   }
 ]
 

@@ -13,7 +13,7 @@ Vue.config.productionTip = false;
 Vue.use({
   install:function(Vue){
     // 练习页面
-    Vue.component('train1',resolve=>require([`./views/train/train1`],resolve))
+    Vue.component('TimeFormat',resolve=>require([`./views/format/TimeFormat`],resolve))
   }
 })
 new Vue({

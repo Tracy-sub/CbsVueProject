@@ -1,0 +1,14 @@
+/* 整体样式 */
+.cbsMenu{
+  width: 230px;
+  height: 100%;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+/* 单项样式*/
+.menu-item{
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
